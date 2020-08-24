@@ -1,6 +1,6 @@
 buildscript {
     ext {  // 전역변수 설정
-        springBootVersion = '2.1.9.RELEASE'
+        springBootVersion = '2.1.7.RELEASE'
     }
     repositories {  // 의존성들이 어떤 원격 저장소에서 받을지 지정
         mavenCentral()
