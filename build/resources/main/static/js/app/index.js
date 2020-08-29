@@ -1,3 +1,4 @@
+// api 를 호출하는 JS
 var main = {
     init : function () {
         var _this = this;
@@ -28,7 +29,7 @@ var main = {
             data: JSON.stringify(data)
         }).done(function() {
             alert('글이 등록되었습니다.');
-            window.location.href = '/';
+            window.location.href = '/';  // 글 등록 성공 시 메인페이지로 이동
         }).fail(function (error) {
             alert(JSON.stringify(error));
         });
